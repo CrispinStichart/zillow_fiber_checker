@@ -5,7 +5,6 @@ const app = express();
 
 import { google_fiber_available } from "./checker.mjs";
 
-// app.use(express.static("./"));
 app.use(express.urlencoded({ extended: false }));
 
 app.get("/", function (req, res, next) {

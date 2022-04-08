@@ -7,13 +7,7 @@ import pkg from "./puppet-test.js";
 const { getPageHTML } = pkg;
 
 const bing_api = "https://dev.virtualearth.net/REST/v1/Locations";
-const key = get_api_key();
-
-function get_api_key() {
-  return fs.readFileSync("api_key", "utf-8").trim();
-}
-
-const api_key = "";
+const api_key = fs.readFileSync("api_key", "utf-8");
 
 /**
  * @param address {string}

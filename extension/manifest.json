@@ -1,6 +1,6 @@
 {
   "name": "Zillow Fiber Checker",
-  "description": "Display availibilty of fiber internet on Zillow",
+  "description": "Display availability of fiber internet on Zillow",
   "version": "1.0",
   "manifest_version": 3,
   "background": {
